@@ -17,7 +17,7 @@
 )
 #let city = "HO CHI MINH CITY"
 #let date = "December 2024"
-#let logo = "Logo_BK.png"
+#let logo = "content/images/Logo_BK.png"
 #let references-file = "references.bib"
 
 #let declaration = [

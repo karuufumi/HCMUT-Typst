@@ -35,6 +35,7 @@ I keep the project content separate from the formatting:
 - `thesis.typ` contains the reusable layout and styling.
 - `content/front-matter.typ` contains the title, cover details, people, abstract, glossary, and keywords.
 - `content/chapters/` contains one file per chapter.
+- `content/images/` contains the logo and other report images.
 - `report.typ` assembles the chapters and applies the template.
 - `references.bib` contains the bibliography.
 
