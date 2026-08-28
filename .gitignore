@@ -1,7 +1,7 @@
 tmp/
 *.pdf
 !Template_for_Capstone_Project___Thesis_Defense_OFFICIAL.zip
-Template_for_Capstone_Project___Thesis_Defense_OFFICIAL/
+/Template_for_Capstone_Project___Thesis_Defense_OFFICIAL/
 output/
 *.log
 *.aux
