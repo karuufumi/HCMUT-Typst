@@ -1,7 +1,7 @@
 TYPST ?= typst
 ENTRY ?= report.typ
 OUTPUT_DIR ?= output/pdf
-OUTPUT ?= $(OUTPUT_DIR)/bk-thesis.pdf
+OUTPUT ?= $(OUTPUT_DIR)/report.pdf
 
 .PHONY: all compile watch help
 
@@ -20,7 +20,7 @@ watch:
 	@$(TYPST) watch $(ENTRY) $(OUTPUT)
 
 help:
-	@echo "make           Compile the thesis"
-	@echo "make compile   Compile the thesis"
+	@echo "make           Compile the report"
+	@echo "make compile   Compile the report"
 	@echo "make watch     Recompile whenever a source file changes"
 	@echo "make ENTRY=... Compile a different Typst entry point"

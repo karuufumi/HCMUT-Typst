@@ -1,6 +1,6 @@
 # BKTypst
 
-This is my Typst template for an HCMUT capstone project or thesis. It follows the supplied HCMUT LaTeX template and includes the cover, front matter, chapters, contents, and references.
+This is my Typst template for an HCMUT capstone project or thesis. It follows the standard HCMUT LaTeX template.
 
 ## Run it
 
@@ -13,7 +13,7 @@ Install [Typst](https://typst.app/), then run:
 The PDF is created at:
 
 ```text
-output/pdf/bk-thesis.pdf
+output/pdf/report.pdf
 ```
 
 I can also compile it with:
