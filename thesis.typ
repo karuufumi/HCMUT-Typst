@@ -97,11 +97,11 @@
       #box(width: 100%, height: 100%, stroke: 1pt)[
       #align(center)[
         #set par(leading: 0.75em, first-line-indent: 0pt)
-        #v(0.2cm)
+        #v(0.4cm)
         #text(size: 15pt, weight: "bold")[VIETNAM NATIONAL UNIVERSITY HO CHI MINH CITY]
-        #v(0.2em)
+        #v(0.1em)
         #text(size: 15pt, weight: "bold")[HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY]
-        #v(0.2em)
+        #v(0.1em)
         #text(size: 15pt, weight: "bold")[#faculty]
         #v(0cm)
         #align(center)[
@@ -121,15 +121,14 @@
         #line(length: 80%, stroke: 0.5pt)
         #v(0.2cm)
         #align(center)[
-          #text(weight: "bold")[MAJOR:] #major
-          #v(0.35cm)
           #table(
             columns: (3.2cm, 5.3cm),
             inset: (x: 0pt, y: 0.08cm),
             stroke: none,
             column-gutter: 0.2cm,
             row-gutter: 0.3cm,
-            align: (right, left),
+            align: (left, left),
+            [*MAJOR:*], [#major],
             [*COUNCIL:*], [#council],
             [*#supervisor-label*], [#supervisors.join(", ")],
             [*REVIEWER:*], [#reviewer],
@@ -143,7 +142,7 @@
             stroke: none,
             column-gutter: 0.2cm,
             row-gutter: 0.18cm,
-            align: (right, left),
+            align: (left, left),
             ..students.enumerate().fold((), (cells, item) => (
               ..cells,
               [*STUDENT #(item.at(0) + 1):*],

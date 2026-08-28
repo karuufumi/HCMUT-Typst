@@ -8,9 +8,9 @@
 #let report-type = "CAPSTONE PROJECT"
 #let semester = "SEMESTER 241"
 #let academic-year = "ACADEMIC YEAR 2023-2024"
-#let council = "<NAME>"
-#let supervisors = ("Dr. Supervisor Name",)
-#let reviewer = "..."
+#let council = "CC01"
+#let supervisors = ("Mr. Nguyen Van A ",)
+#let reviewer = "Dr. Le Van B"
 #let students = (
   ("Student One", "0000000"),
   ("Student Two", "0000001"),
