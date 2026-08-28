@@ -9,3 +9,5 @@ output/
 *.out
 *.bcf
 *.run.xml
+template.pdf
+thesis.pdf
