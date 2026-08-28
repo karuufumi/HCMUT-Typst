@@ -1,61 +1,32 @@
 #import "thesis.typ": hcmut-thesis
+#import "content/main.typ": *
 
 #show: hcmut-thesis.with(
-  title: "A Typst Thesis Template for HCMUT",
-  faculty: "FACULTY OF COMPUTER SCIENCE AND ENGINEERING",
-  major: "COMPUTER SCIENCE",
-  degree: "REPORT",
-  report-type: "CAPSTONE PROJECT",
-  semester: "SEMESTER 241",
-  academic-year: "ACADEMIC YEAR 2023-2024",
-  council: "<NAME>",
-  supervisors: ("Dr. Supervisor Name",),
-  reviewer: "...",
-  students: (
-    ("Student One", "0000000"),
-    ("Student Two", "0000001"),
-  ),
-  city: "HO CHI MINH CITY",
-  date: "December 2024",
-  keywords: ("Typst", "HCMUT", "thesis"),
-  glossary: (
-    ("API", "Application Programming Interface"),
-    ("PDF", "Portable Document Format"),
-  ),
+  title: title,
+  faculty: faculty,
+  major: major,
+  degree: degree,
+  report-type: report-type,
+  semester: semester,
+  academic-year: academic-year,
+  council: council,
+  supervisors: supervisors,
+  reviewer: reviewer,
+  students: students,
+  city: city,
+  date: date,
+  logo: logo,
+  declaration: declaration,
+  acknowledgement: acknowledgement,
+  abstract: abstract,
+  glossary: glossary,
+  keywords: keywords,
+  references-file: references-file,
 )
 
-= Introduction
-
-This is a starter document. Replace the metadata above and write the report chapters below.
-
-== Motivation
-
-Explain the context and motivation of the work here.
-
-== Goals
-
-State the goals and expected outcomes.
-
-== Scope
-
-Define what the project does and does not cover.
-
-== Report Structure
-
-Briefly describe the organisation of the report.
-
-= Related Works
-
-Summarise relevant work and identify the gap addressed by this project.
-
-= Theoretical Background
-
-Present the concepts required to understand the project.
-
-= Proposed Solution
-
-Describe the system, method, implementation, and evaluation.
-
-= Conclusion
-
-Summarise the contribution, limitations, and future work.
+// Add, remove, or reorder chapters here.
+#include "content/chapters/01-introduction.typ"
+#include "content/chapters/02-related-works.typ"
+#include "content/chapters/03-theoretical-background.typ"
+#include "content/chapters/04-proposed-solution.typ"
+#include "content/chapters/05-conclusion.typ"

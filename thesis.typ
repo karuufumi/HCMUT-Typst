@@ -3,38 +3,26 @@
 // Then apply with: #show: hcmut-thesis.with(...)
 
 #let hcmut-thesis(
-  title: "<TITLE>",
-  faculty: "FACULTY OF COMPUTER SCIENCE AND ENGINEERING",
-  major: "COMPUTER SCIENCE",
-  degree: "REPORT",
-  report-type: "CAPSTONE PROJECT",
-  semester: "SEMESTER ...",
-  academic-year: "ACADEMIC YEAR 20..-20..",
-  council: "<NAME>",
-  supervisors: ("<NAME>",),
-  reviewer: "",
-  students: (("<NAME>", "<ID>"),),
-  city: "HO CHI MINH CITY",
-  date: "December 2024",
-  logo: "Logo_BK.png",
-  declaration: [
-    We declare that we solely conducted this specialized project under the supervision
-    of the supervisor(s) listed on the cover at the Faculty of Computer Science and
-    Engineering, Vietnam National University - Ho Chi Minh City University of Technology.
-    #parbreak()
-    We have properly acknowledged all external sources and references used in this project.
-    #parbreak()
-    If there is any instance of plagiarism, we are ready to accept the consequences.
-  ],
-  acknowledgement: [
-    We would like to express our appreciation to our supervisor(s) for their invaluable
-    guidance, criticism, and constant support throughout this project. We are also grateful
-    to everyone who contributed advice and encouragement.
-  ],
-  abstract: [Write a concise abstract here. State the problem, method, main results, and conclusion.],
+  title: none,
+  faculty: none,
+  major: none,
+  degree: none,
+  report-type: none,
+  semester: none,
+  academic-year: none,
+  council: none,
+  supervisors: none,
+  reviewer: none,
+  students: none,
+  city: none,
+  date: none,
+  logo: none,
+  declaration: none,
+  acknowledgement: none,
+  abstract: none,
   glossary: (),
   keywords: (),
-  references-file: "references.bib",
+  references-file: none,
   body,
 ) = {
   set document(title: title, author: students.map(s => s.at(0)).join(", "))
