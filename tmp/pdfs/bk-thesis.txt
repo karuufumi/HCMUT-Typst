@@ -1,0 +1,195 @@
+VIETNAM NATIONAL UNIVERSITY HO CHI MINH CITY
+
+ HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY
+
+FACULTY OF COMPUTER SCIENCE AND ENGINEERING
+
+
+
+
+                     REPORT
+              CAPSTONE PROJECT
+    SEMESTER 241 ACADEMIC YEAR 2023-2024
+
+
+A TYPST THESIS TEMPLATE FOR HCMUT
+
+            MAJOR: COMPUTER SCIENCE
+
+           COUNCIL: <NAME>
+        SUPERVISOR: Dr. Supervisor Name
+          REVIEWER: ...
+
+
+                     ——o0o——
+
+
+          STUDENT 1: Student One - 0000000
+          STUDENT 2: Student Two - 0000001
+
+
+
+
+         HO CHI MINH CITY, December 2024
+Instructor's Signature
+
+                          Date:
+
+
+
+
+Dr. Supervisor Name
+
+
+
+
+                      i
+Declaration of Authenticity
+
+We declare that we solely conducted this specialized project under the supervision of the
+supervisor(s) listed on the cover at the Faculty of Computer Science and Engineering,
+Vietnam National University - Ho Chi Minh City University of Technology.
+We have properly acknowledged all external sources and references used in this project.
+If there is any instance of plagiarism, we are ready to accept the consequences.
+
+
+
+
+                                                 HO CHI MINH CITY, December 2024
+                                                                               Authors,
+                                                              Student One, Student Two
+
+
+
+
+                                           ii
+Acknowledgement
+
+We would like to express our appreciation to our supervisor(s) for their invaluable
+guidance, criticism, and constant support throughout this project. We are also grateful to
+everyone who contributed advice and encouragement.
+
+
+
+
+                                           iii
+Abstract
+
+Write a concise abstract here. State the problem, method, main results, and conclusion.
+
+Keywords: Typst; HCMUT; thesis
+
+
+
+
+                                          iv
+Table of Glossary
+
+Term   Definition
+API    Application Programming Interface
+PDF    Portable Document Format
+
+
+
+
+                           v
+Contents
+1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠1
+
+    1.1 Motivation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠1
+    1.2 Goals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠1
+    1.3 Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠1
+    1.4 Report Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠1
+2 Related Works . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠2
+
+3 Theoretical Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠3
+
+4 Proposed Solution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠4
+
+5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠5
+
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠6
+
+
+
+
+                                                                        vi
+List of Tables
+
+
+
+
+                 vii
+List of Figures
+
+
+
+
+                  viii
+Chapter 1
+
+Introduction
+This is a starter document. Replace the metadata above and write the report chapters
+below.
+
+1.1 Motivation
+Explain the context and motivation of the work here.
+
+1.2 Goals
+State the goals and expected outcomes.
+
+1.3 Scope
+Define what the project does and does not cover.
+
+1.4 Report Structure
+Briefly describe the organisation of the report.
+
+
+
+
+                                            1
+Chapter 2
+
+Related Works
+Summarise relevant work and identify the gap addressed by this project.
+
+
+
+
+                                          2
+Chapter 3
+
+Theoretical Background
+Present the concepts required to understand the project.
+
+
+
+
+                                           3
+Chapter 4
+
+Proposed Solution
+Describe the system, method, implementation, and evaluation.
+
+
+
+
+                                         4
+Chapter 5
+
+Conclusion
+Summarise the contribution, limitations, and future work.
+
+
+
+
+                                          5
+References
+
+[1] T. Project, “Typst Documentation.” [Online]. Available: https://typst.app/docs/
+
+
+
+
+                                           6
+
