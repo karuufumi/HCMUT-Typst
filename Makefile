@@ -13,7 +13,7 @@ prepare:
 	@find "$(OUTPUT_DIR)" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
 
 compile: prepare
-	@echo "Compiling $(ENTRY) -> $(OUTPUT)"
+	@echo "Compiling"
 	@$(TYPST) compile $(ENTRY) $(OUTPUT)
 	@echo "Done: $(OUTPUT)"
 
