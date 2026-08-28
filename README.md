@@ -1,4 +1,4 @@
-# BKTypst
+# HCMUT-Typst
 
 This is my Typst template for an HCMUT capstone project or thesis. It follows the standard HCMUT LaTeX template.
 
