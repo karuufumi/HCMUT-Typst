@@ -1,5 +1,5 @@
 #import "thesis.typ": hcmut-thesis
-#import "content/main.typ": *
+#import "content/front-matter.typ": *
 
 #show: hcmut-thesis.with(
   title: title,
