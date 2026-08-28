@@ -13,7 +13,7 @@ Install [Typst](https://typst.app/), then run:
 The PDF is created at:
 
 ```text
-output/pdf/report.pdf
+output/report.pdf
 ```
 
 I can also compile it with:
